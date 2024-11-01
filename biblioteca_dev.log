@@ -1,0 +1,155 @@
+2024-10-24T19:16:37.225-03:00  INFO 12756 --- [biblioteca] [restartedMain] c.c.b.BibliotecaosApplication            : Starting BibliotecaosApplication using Java 17.0.10 with PID 12756 (C:\Projeto2024\bibliotecaos\target\classes started by FEF in C:\Projeto2024\bibliotecaos)
+2024-10-24T19:16:37.227-03:00  INFO 12756 --- [biblioteca] [restartedMain] c.c.b.BibliotecaosApplication            : The following 1 profile is active: "dev"
+2024-10-24T19:16:37.260-03:00  INFO 12756 --- [biblioteca] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-24T19:16:37.262-03:00  INFO 12756 --- [biblioteca] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-24T19:16:37.661-03:00  INFO 12756 --- [biblioteca] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-24T19:16:37.674-03:00  INFO 12756 --- [biblioteca] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+2024-10-24T19:16:38.095-03:00  INFO 12756 --- [biblioteca] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-24T19:16:38.104-03:00  INFO 12756 --- [biblioteca] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-24T19:16:38.104-03:00  INFO 12756 --- [biblioteca] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-24T19:16:38.140-03:00  INFO 12756 --- [biblioteca] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-24T19:16:38.141-03:00  INFO 12756 --- [biblioteca] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 878 ms
+2024-10-24T19:16:38.165-03:00  INFO 12756 --- [biblioteca] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-24T19:16:38.279-03:00  INFO 12756 --- [biblioteca] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@49abc663
+2024-10-24T19:16:38.280-03:00  INFO 12756 --- [biblioteca] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-24T19:16:38.291-03:00  INFO 12756 --- [biblioteca] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/bibliotecaosdb'
+2024-10-24T19:16:38.372-03:00  INFO 12756 --- [biblioteca] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-24T19:16:38.412-03:00  INFO 12756 --- [biblioteca] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-24T19:16:38.434-03:00  INFO 12756 --- [biblioteca] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-24T19:16:38.641-03:00  INFO 12756 --- [biblioteca] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-24T19:16:38.864-03:00  INFO 12756 --- [biblioteca] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-24T19:16:38.867-03:00  INFO 12756 --- [biblioteca] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-24T19:16:38.910-03:00  WARN 12756 --- [biblioteca] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-24T19:16:39.178-03:00  INFO 12756 --- [biblioteca] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-24T19:16:39.203-03:00  INFO 12756 --- [biblioteca] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-24T19:16:39.217-03:00  INFO 12756 --- [biblioteca] [restartedMain] c.c.b.BibliotecaosApplication            : Started BibliotecaosApplication in 2.263 seconds (process running for 2.54)
+2024-10-24T19:16:47.210-03:00  INFO 12756 --- [biblioteca] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-24T19:16:47.213-03:00  INFO 12756 --- [biblioteca] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-24T19:16:47.215-03:00  INFO 12756 --- [biblioteca] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-24T19:16:48.960-03:00  INFO 7724 --- [biblioteca] [restartedMain] c.c.b.BibliotecaosApplication            : Starting BibliotecaosApplication using Java 17.0.10 with PID 7724 (C:\Projeto2024\bibliotecaos\target\classes started by FEF in C:\Projeto2024\bibliotecaos)
+2024-10-24T19:16:48.963-03:00  INFO 7724 --- [biblioteca] [restartedMain] c.c.b.BibliotecaosApplication            : The following 1 profile is active: "dev"
+2024-10-24T19:16:48.994-03:00  INFO 7724 --- [biblioteca] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-24T19:16:48.994-03:00  INFO 7724 --- [biblioteca] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-24T19:16:49.391-03:00  INFO 7724 --- [biblioteca] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-24T19:16:49.404-03:00  INFO 7724 --- [biblioteca] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+2024-10-24T19:16:49.844-03:00  INFO 7724 --- [biblioteca] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-24T19:16:49.853-03:00  INFO 7724 --- [biblioteca] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-24T19:16:49.854-03:00  INFO 7724 --- [biblioteca] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-24T19:16:49.886-03:00  INFO 7724 --- [biblioteca] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-24T19:16:49.886-03:00  INFO 7724 --- [biblioteca] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 891 ms
+2024-10-24T19:16:49.908-03:00  INFO 7724 --- [biblioteca] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-24T19:16:50.016-03:00  INFO 7724 --- [biblioteca] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3e9912a8
+2024-10-24T19:16:50.017-03:00  INFO 7724 --- [biblioteca] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-24T19:16:50.024-03:00  INFO 7724 --- [biblioteca] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/bibliotecaosdb'
+2024-10-24T19:16:50.116-03:00  INFO 7724 --- [biblioteca] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-24T19:16:50.156-03:00  INFO 7724 --- [biblioteca] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-24T19:16:50.182-03:00  INFO 7724 --- [biblioteca] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-24T19:16:50.386-03:00  INFO 7724 --- [biblioteca] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-24T19:16:50.643-03:00  INFO 7724 --- [biblioteca] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-24T19:16:50.645-03:00  INFO 7724 --- [biblioteca] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-24T19:16:50.685-03:00  WARN 7724 --- [biblioteca] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-24T19:16:50.950-03:00  INFO 7724 --- [biblioteca] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-24T19:16:50.975-03:00  INFO 7724 --- [biblioteca] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-24T19:16:50.982-03:00  INFO 7724 --- [biblioteca] [restartedMain] c.c.b.BibliotecaosApplication            : Started BibliotecaosApplication in 2.294 seconds (process running for 2.599)
+2024-10-24T19:20:08.434-03:00  INFO 7724 --- [biblioteca] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2024-10-24T19:20:08.487-03:00  INFO 7724 --- [biblioteca] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-24T19:20:08.491-03:00  INFO 7724 --- [biblioteca] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-24T19:20:08.493-03:00  INFO 7724 --- [biblioteca] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-24T19:20:08.553-03:00  INFO 7724 --- [biblioteca] [restartedMain] c.c.b.BibliotecaosApplication            : Starting BibliotecaosApplication using Java 17.0.10 with PID 7724 (C:\Projeto2024\bibliotecaos\target\classes started by FEF in C:\Projeto2024\bibliotecaos)
+2024-10-24T19:20:08.554-03:00  INFO 7724 --- [biblioteca] [restartedMain] c.c.b.BibliotecaosApplication            : The following 1 profile is active: "dev"
+2024-10-24T19:20:08.700-03:00  INFO 7724 --- [biblioteca] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-24T19:20:08.702-03:00  INFO 7724 --- [biblioteca] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2024-10-24T19:20:08.814-03:00  INFO 7724 --- [biblioteca] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-24T19:20:08.815-03:00  INFO 7724 --- [biblioteca] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-24T19:20:08.815-03:00  INFO 7724 --- [biblioteca] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-24T19:20:08.829-03:00  INFO 7724 --- [biblioteca] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-24T19:20:08.829-03:00  INFO 7724 --- [biblioteca] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 273 ms
+2024-10-24T19:20:08.842-03:00  INFO 7724 --- [biblioteca] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-10-24T19:20:08.873-03:00  INFO 7724 --- [biblioteca] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@5351c023
+2024-10-24T19:20:08.874-03:00  INFO 7724 --- [biblioteca] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-10-24T19:20:08.874-03:00  INFO 7724 --- [biblioteca] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/bibliotecaosdb'
+2024-10-24T19:20:08.898-03:00  INFO 7724 --- [biblioteca] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-24T19:20:08.900-03:00  INFO 7724 --- [biblioteca] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-24T19:20:08.908-03:00  INFO 7724 --- [biblioteca] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-24T19:20:08.938-03:00  INFO 7724 --- [biblioteca] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-24T19:20:08.938-03:00  INFO 7724 --- [biblioteca] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-24T19:20:08.963-03:00  WARN 7724 --- [biblioteca] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-24T19:20:09.058-03:00  INFO 7724 --- [biblioteca] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-24T19:20:09.070-03:00  INFO 7724 --- [biblioteca] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-24T19:20:09.073-03:00  INFO 7724 --- [biblioteca] [restartedMain] c.c.b.BibliotecaosApplication            : Started BibliotecaosApplication in 0.545 seconds (process running for 200.69)
+2024-10-24T19:20:09.075-03:00  INFO 7724 --- [biblioteca] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-10-24T19:20:09.282-03:00  INFO 8468 --- [biblioteca] [restartedMain] c.c.b.BibliotecaosApplication            : Starting BibliotecaosApplication using Java 17.0.10 with PID 8468 (C:\Projeto2024\bibliotecaos\target\classes started by FEF in C:\Projeto2024\bibliotecaos)
+2024-10-24T19:20:09.285-03:00  INFO 8468 --- [biblioteca] [restartedMain] c.c.b.BibliotecaosApplication            : The following 1 profile is active: "dev"
+2024-10-24T19:20:09.333-03:00  INFO 8468 --- [biblioteca] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-24T19:20:09.334-03:00  INFO 8468 --- [biblioteca] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-24T19:20:09.801-03:00  INFO 8468 --- [biblioteca] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-24T19:20:09.815-03:00  INFO 8468 --- [biblioteca] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+2024-10-24T19:20:10.263-03:00  INFO 8468 --- [biblioteca] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-24T19:20:10.273-03:00  INFO 8468 --- [biblioteca] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-24T19:20:10.273-03:00  INFO 8468 --- [biblioteca] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-24T19:20:10.305-03:00  INFO 8468 --- [biblioteca] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-24T19:20:10.306-03:00  INFO 8468 --- [biblioteca] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 971 ms
+2024-10-24T19:20:10.327-03:00  INFO 8468 --- [biblioteca] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-24T19:20:10.441-03:00  INFO 8468 --- [biblioteca] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5279963c
+2024-10-24T19:20:10.442-03:00  INFO 8468 --- [biblioteca] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-24T19:20:10.448-03:00  INFO 8468 --- [biblioteca] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/bibliotecaosdb'
+2024-10-24T19:20:10.484-03:00  INFO 7724 --- [biblioteca] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-10-24T19:20:10.538-03:00  INFO 7724 --- [biblioteca] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-24T19:20:10.539-03:00  INFO 7724 --- [biblioteca] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-10-24T19:20:10.540-03:00  INFO 7724 --- [biblioteca] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2024-10-24T19:20:10.552-03:00  INFO 8468 --- [biblioteca] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-24T19:20:10.595-03:00  INFO 7724 --- [biblioteca] [restartedMain] c.c.b.BibliotecaosApplication            : Starting BibliotecaosApplication using Java 17.0.10 with PID 7724 (C:\Projeto2024\bibliotecaos\target\classes started by FEF in C:\Projeto2024\bibliotecaos)
+2024-10-24T19:20:10.596-03:00  INFO 7724 --- [biblioteca] [restartedMain] c.c.b.BibliotecaosApplication            : The following 1 profile is active: "dev"
+2024-10-24T19:20:10.613-03:00  INFO 8468 --- [biblioteca] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-24T19:20:10.660-03:00  INFO 8468 --- [biblioteca] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-24T19:20:10.744-03:00  INFO 7724 --- [biblioteca] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-24T19:20:10.747-03:00  INFO 7724 --- [biblioteca] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2024-10-24T19:20:10.850-03:00  INFO 7724 --- [biblioteca] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-24T19:20:10.851-03:00  INFO 7724 --- [biblioteca] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-24T19:20:10.851-03:00  INFO 7724 --- [biblioteca] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-24T19:20:10.861-03:00  INFO 7724 --- [biblioteca] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-24T19:20:10.862-03:00  INFO 7724 --- [biblioteca] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 264 ms
+2024-10-24T19:20:10.879-03:00  INFO 7724 --- [biblioteca] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2024-10-24T19:20:10.913-03:00  INFO 7724 --- [biblioteca] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@1b0d1dbf
+2024-10-24T19:20:10.913-03:00  INFO 7724 --- [biblioteca] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2024-10-24T19:20:10.913-03:00  INFO 7724 --- [biblioteca] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/bibliotecaosdb'
+2024-10-24T19:20:10.932-03:00  INFO 7724 --- [biblioteca] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-24T19:20:10.935-03:00  INFO 7724 --- [biblioteca] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-24T19:20:10.941-03:00  INFO 7724 --- [biblioteca] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-24T19:20:10.974-03:00  INFO 7724 --- [biblioteca] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-24T19:20:10.975-03:00  INFO 7724 --- [biblioteca] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-24T19:20:10.979-03:00  INFO 8468 --- [biblioteca] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-24T19:20:10.992-03:00  WARN 7724 --- [biblioteca] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-24T19:20:11.049-03:00  INFO 7724 --- [biblioteca] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-24T19:20:11.054-03:00  INFO 7724 --- [biblioteca] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-24T19:20:11.057-03:00  INFO 7724 --- [biblioteca] [restartedMain] c.c.b.BibliotecaosApplication            : Started BibliotecaosApplication in 0.485 seconds (process running for 202.674)
+2024-10-24T19:20:11.058-03:00  INFO 7724 --- [biblioteca] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-10-24T19:20:11.310-03:00  INFO 8468 --- [biblioteca] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-24T19:20:11.313-03:00  INFO 8468 --- [biblioteca] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-24T19:20:11.374-03:00  WARN 8468 --- [biblioteca] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-24T19:20:11.661-03:00  WARN 8468 --- [biblioteca] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-10-24T19:20:11.674-03:00  WARN 8468 --- [biblioteca] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-10-24T19:20:11.675-03:00  INFO 8468 --- [biblioteca] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-24T19:20:11.678-03:00  INFO 8468 --- [biblioteca] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-24T19:20:11.680-03:00  INFO 8468 --- [biblioteca] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-24T19:20:11.690-03:00  INFO 8468 --- [biblioteca] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-10-24T19:20:11.708-03:00 ERROR 8468 --- [biblioteca] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-10-24T19:22:18.318-03:00  INFO 7724 --- [biblioteca] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2024-10-24T19:22:18.368-03:00  INFO 7724 --- [biblioteca] [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-24T19:22:18.369-03:00  INFO 7724 --- [biblioteca] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2024-10-24T19:22:18.371-03:00  INFO 7724 --- [biblioteca] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
